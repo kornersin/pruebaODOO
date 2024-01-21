@@ -1,0 +1,241 @@
+header {
+    z-index: -1;
+    height: fit-content;
+    top: -50px;
+    background-image: url("./assets/icons/flagdown.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    width: 70%;
+    margin: 0 auto;
+    padding: 8px 8px 16px 8px;
+    border-bottom: 1px solid white;
+}
+.navbar-nav{
+    margin: 0 auto !important;
+}
+a:hover{
+    text-decoration: none !important;
+}
+.brand{
+    width: 70px;
+    margin: 0 .3rem;
+}
+.icons{
+    margin: 0.55rem !important;
+    width: 0.3rem !important;
+}
+button{
+    font-size: 0.7rem !important;
+}
+.pages{
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container{
+    width: 70% !important;
+}
+.credit{
+    background-color: #1D1348;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    background-image: url(./assets/brands/dots.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.info-card{
+    border-radius: 8px 8px 48px 8px;
+}
+.small{
+    font-size: .6rem !important;
+}
+.dotted{
+    border-bottom: dotted !important;
+}
+.card{
+    border: none !important;
+    box-shadow: 2px 4px 16px 0 rgba(203, 203, 203, 0.6) !important;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(181px,1fr));
+    gap: 0.75rem;
+    width: 79%;
+    margin: 0 auto ;
+}
+.card-e {
+    border: 1px solid gray;
+    border-radius: 8px;
+    background-color: #fff;
+    height: 225px;
+    text-align: center;
+}
+.card-e img {
+    width: 60%;
+    padding-top: 1rem;
+}
+.card-e:hover{
+    width: auto;
+    border: 1px solid gray;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+    transform: scale(1.025);
+    box-shadow: 2px 4px 16px 0 #bcbcbc;
+}
+
+.progress{
+    height: 2.5px !important;
+}
+.progress-bar{
+    background-color: #f4c237 !important;
+}
+.person{
+    width: 70%;
+    position: absolute;
+    bottom: 40%;
+    left: 49%;
+}
+.person-imgChild{
+    width: 100%;
+    border-radius: 10px;
+}
+.play-right{
+    position: absolute;
+    right: 6%;
+    top: 7%;
+}
+.play-left{
+    position: absolute;
+    left: 8%;
+    top: 6%;
+}
+.checkbox{
+    width: fit-content;
+    height: fit-content;
+    padding: 2px 5px;
+    border-radius: 6px;
+    background-color: rgb(62, 213, 127);
+}
+.checkbox-text{
+    color: rgb(62, 213, 127);
+}
+.badgeUser{
+    background-color: #ffc107 ;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+}
+.circle{
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+.leaf{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    -moz-border-radius: 0 50% / 0 100%;
+    -webkit-border-radius: 0 50% / 0 100%;
+    border-radius: 1% 9% / 1% 50%;
+    background: #1D1348;
+    padding: 3rem;
+}
+.float-btn{
+    position: relative;
+    bottom: 25%;
+}
+.yellow{
+    color: #ffc107;
+}
+.card-img{
+    width: 35% !important;
+    margin: 0 auto !important;
+}
+.profiles{
+    display: flex;
+    justify-content: center;
+}
+.profiles img{
+    width: 40px;
+    border: 2px solid white;
+    border-radius: 100%;
+}
+.profiles :nth-child(2){
+    position: absolute;
+}
+.profiles :nth-last-child(1){
+    z-index: 1;
+}
+.downloads{
+    background-color: #1d1d1d !important;
+}
+.downloads img{
+    margin-right: 1rem;
+    width: 32px;
+    padding: 2px 0;
+}
+ul{
+    padding-left: 0;
+    font-size: .7rem;
+    font-weight: 200;
+}
+li{
+    list-style: none;
+}
+li a{
+    color: #f5f5f5;
+}
+.hr{
+    height: 0.4px !important;
+    background: linear-gradient(to right, rgba(0,0,0,0),rgba(0,0,0,0), rgba(175,175,175,0.50),rgba(0,0,0,0),rgba(0,0,0,0)) ;
+}
+.footer-line{
+    border-bottom: 2px linear-gradient(to right, blue, pink);
+    height: 2px;
+}
+footer {
+    z-index: -1;
+    height: fit-content;
+    background-image: url("./assets/icons/flagup.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+/* Responsive styles */
+@media only screen and (max-width: 480px){
+    .person{
+        width: 100%;
+        position: relative;
+        bottom: 0;
+        margin-top: 1rem;
+        left: 0;
+    }
+    .play-right{
+        position: absolute;
+        right: 6%;
+        top: 7%;
+    }
+    .play-left{
+        position: absolute;
+        left: 8%;
+        top: 6%;
+    }
+} 
